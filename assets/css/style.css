@@ -6458,6 +6458,7 @@ a.list-group-item-dark.active,
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 750px;
     z-index: -3;
 }
 
@@ -6492,10 +6493,13 @@ ul {
     border-top: solid 3px #ced4da;
     border-bottom: solid 3px #ced4da;
     list-style-type: none;
+    padding-bottom: 1.5rem;
 }
 
 li {
     font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
 }
 
 li:before {
