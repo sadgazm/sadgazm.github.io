@@ -1,0 +1,10 @@
+section{
+    background: url("../i/newspaper.jpg") fixed;
+}
+.no-bg{
+    background: $gray-200;
+    border: none;
+}
+.bg__light:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
