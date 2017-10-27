@@ -6443,7 +6443,7 @@ a.list-group-item-dark.active,
 }
 
 .head__cont {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -6452,7 +6452,7 @@ a.list-group-item-dark.active,
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 85vh;
+    height: 75%;
     z-index: -2;
 }
 
@@ -6460,7 +6460,7 @@ a.list-group-item-dark.active,
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 750px;
+    width: 30%;
     z-index: -3;
 }
 
