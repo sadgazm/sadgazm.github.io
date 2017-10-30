@@ -6904,6 +6904,11 @@ footer a {
     header .btn:first-child {
         margin-top: 10px !important;
     }
+
+    .descr__cont p {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 /*!
