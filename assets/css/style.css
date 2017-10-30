@@ -6442,6 +6442,10 @@ a.list-group-item-dark.active,
     border-color: #1b1e21;
 }
 
+.centered {
+    text-align: center;
+}
+
 .head__cont {
     min-height: 100vh;
     position: relative;
@@ -6524,7 +6528,6 @@ strong {
 .scale__img:hover {
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-    box-shadow: 6px 4px 18px -6px, -6px 4px 18px -6px rgba(0, 0, 0, 0.75);
 }
 
 .border__img {
@@ -6570,52 +6573,53 @@ footer {
     color: #fff;
     font-size: 1.1rem;
     width: 100%;
+    overflow: hidden;
 }
 
 .soc__link1 {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/vk1.png") no-repeat;
     background-size: cover;
 }
 
 .soc__link1:hover {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/vk2.png") no-repeat;
     background-size: cover;
 }
 
 .soc__link2 {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/inst1.png") no-repeat;
     background-size: contain;
 }
 
 .soc__link2:hover {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/inst2.png") no-repeat;
     background-size: contain;
 }
 
 .soc__link3 {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/yt1.png") no-repeat;
     background-size: contain;
 }
 
 .soc__link3:hover {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url("../i/yt2.png") no-repeat;
     background-size: contain;
 }
@@ -6642,6 +6646,182 @@ footer {
 .fa {
     margin-left: 10px;
     margin-right: 5px;
+}
+
+footer span {
+    font-size: 1.1rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    footer span {
+        font-size: 1rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    header h1 {
+        font-size: 5rem !important;
+    }
+
+    footer span {
+        font-size: 0.72rem;
+    }
+
+    footer a {
+        font-size: 0.72rem;
+        font-weight: 700;
+    }
+
+    .a__decor:before {
+        margin-right: 10px;
+    }
+
+    .a__decor:after {
+        margin-left: 10px;
+    }
+
+    .footer__li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .scale__img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 3.5rem !important;
+    }
+
+    footer span {
+        font-size: 0.65rem;
+    }
+
+    footer a {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    .footer__li {
+        display: block;
+        height: 20px;
+    }
+
+    .a__decor:after {
+        content: ' ';
+        margin-left: 0px;
+    }
+
+    .a__decor:before {
+        content: ' ';
+        margin-right: 0px;
+    }
+
+    .footer__menu {
+        text-align: center;
+    }
+
+    footer .row {
+        padding-top: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    header h1 {
+        font-size: 1.5rem !important;
+    }
+
+    footer span {
+        font-size: 0.5rem;
+    }
+
+    footer a {
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+
+    .footer__li {
+        display: block;
+        height: 20px;
+    }
+
+    .a__decor:after {
+        content: ' ';
+        margin-left: 0px;
+    }
+
+    .a__decor:before {
+        content: ' ';
+        margin-right: 0px;
+    }
+
+    .footer__menu {
+        text-align: center;
+    }
+
+    footer .row {
+        padding-top: 0px !important;
+    }
+
+    .scale__img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    header h1 {
+        font-size: 2.5rem !important;
+    }
+
+    footer span {
+        font-size: 0.8rem;
+    }
+
+    footer a {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .footer__li {
+        display: block;
+        height: 20px;
+    }
+
+    .a__decor:after {
+        content: ' ';
+        margin-left: 0px;
+    }
+
+    .a__decor:before {
+        content: ' ';
+        margin-right: 0px;
+    }
+
+    .footer__menu {
+        text-align: center;
+    }
+
+    footer .row {
+        padding-top: 0px !important;
+    }
+
+    .scale__img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /*!
