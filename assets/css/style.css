@@ -6471,6 +6471,7 @@ a.list-group-item-dark.active,
 .btn {
     font-size: 2rem;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -6706,9 +6707,29 @@ footer a {
     }
 }
 
-@media (max-width: 767px) {
+@media (min-device-width: 568px) and (max-width: 767px) {
     header h1 {
-        font-size: 3.5rem !important;
+        font-size: 2rem !important;
+        text-transform: uppercase;
+    }
+
+    .pos-r__img {
+        width: 32% !important;
+    }
+
+    header .btn:first-child {
+        margin-top: 10px !important;
+        width: 240px;
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+    header .btn:last-child {
+        width: 240px;
+        height: 40px;
+        font-size: 0.8rem;
+        padding: 0;
+        line-height: 40px;
     }
 
     footer span {
@@ -6747,6 +6768,11 @@ footer a {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
     header h1 {
         font-size: 1.5rem !important;
+        text-transform: uppercase;
+    }
+
+    header .btn:first-child {
+        margin-top: 10px !important;
     }
 
     footer span {
@@ -6873,6 +6899,10 @@ footer a {
 
     .pos-r__img {
         width: 100%;
+    }
+
+    header .btn:first-child {
+        margin-top: 10px !important;
     }
 }
 
