@@ -6528,8 +6528,8 @@ strong {
 }
 
 .scale__img:hover {
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .shadow:hover {
@@ -6541,11 +6541,7 @@ strong {
 }
 
 .price {
-    background-color: #a9fbb7;
-}
-
-.price:hover {
-    background-color: #41ad49;
+    background-color: #16a085;
 }
 
 section {
