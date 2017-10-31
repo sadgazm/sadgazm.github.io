@@ -6496,20 +6496,20 @@ strong {
     border-left: solid 3px #dc3545;
 }
 
-.ul__decor {
+.ul__decor-main {
     border-top: solid 3px #ced4da;
     border-bottom: solid 3px #ced4da;
     list-style-type: none;
     padding-bottom: 1.5rem;
 }
 
-.li__decor {
-    font-size: 1.3rem;
+.li__decor-main {
+    font-size: 1.5rem;
     font-weight: 400;
     padding-top: 1.5rem;
 }
 
-.li__decor:before {
+.li__decor-main:before {
     display: inline-block;
     content: ' ';
     background-image: url("../i/checked.png");
@@ -6551,6 +6551,30 @@ strong {
 section {
     background: url("../i/newspaper.jpg") fixed;
     overflow: hidden;
+}
+
+.ul__decor-section {
+    border-top: solid 3px #ced4da;
+    border-bottom: solid 3px #ced4da;
+    list-style-type: none;
+    padding-bottom: 1.5rem;
+}
+
+.li__decor-section {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: 1.3rem;
+}
+
+.li__decor-section:before {
+    display: inline-block;
+    content: ' ';
+    background-image: url("../i/checked.png");
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
+    vertical-align: middle;
 }
 
 .no-bg {
@@ -6715,6 +6739,11 @@ footer a {
 
     .pos-r__img {
         width: 32% !important;
+    }
+
+    main .btn {
+        max-width: 460px !important;
+        font-size: 1.5rem !important;
     }
 
     header .btn:first-child {
