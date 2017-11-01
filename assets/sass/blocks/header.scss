@@ -1,0 +1,38 @@
+.head__cont{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    // border-bottom: 2px solid #dc3545;
+}
+.centered{
+    text-align: center;
+}
+.pos-l__img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 75%;
+    z-index: -2;
+}
+.pos-r__img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    z-index: -3;
+}
+.btn{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+strong{
+    font-size: 3rem;
+}
+.no__padding{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.underline:hover{
+    text-decoration: underline;
+}
