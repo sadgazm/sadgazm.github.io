@@ -6442,6 +6442,10 @@ a.list-group-item-dark.active,
     border-color: #1b1e21;
 }
 
+html body {
+    font-family: 'Arsenal', sans-serif;
+}
+
 .head__cont {
     min-height: 100vh;
     position: relative;
@@ -6509,7 +6513,6 @@ strong {
 
 .li__decor-main {
     font-size: 1.5rem;
-    font-weight: 400;
     padding-top: 1.5rem;
 }
 
@@ -6572,7 +6575,6 @@ section {
 
 .li__decor-section {
     font-size: 1.3rem;
-    font-weight: 700;
     padding-top: 1.3rem;
 }
 
