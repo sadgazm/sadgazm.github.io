@@ -6900,7 +6900,8 @@ footer a {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
     header h1 {
-        font-size: 2.5rem !important;
+        font-size: 2.2rem !important;
+        margin-bottom: 2rem;
     }
 
     footer span {
@@ -7030,6 +7031,11 @@ footer a {
         font-size: 1.1rem !important;
         padding-left: 10px !important;
         margin-left: 15px !important;
+    }
+
+    section h2 {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 }
 
