@@ -19,18 +19,18 @@
 
 <body>
     <header class="header centered">
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-center fixed-top">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link active text-danger" href="#desc">Описание</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#desc">Link</a>
+                <a class="nav-link text-danger" href="#autor">Об авторе проекта</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-danger" href="#watch">Смотреть куда-то</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link text-danger" href="#">Купить что-то</a>
             </li>
         </ul>
         <div class="container-fluid text-center">
@@ -47,7 +47,7 @@
         </div>
     </header>
     <div class="second__section">
-        <div class="container-fluid main__cont text-center pb-1">
+        <div class="container-fluid text-center pb-1">
             <div class="img-anchor">
                 <a href="" name="desc" class="anchor-describe"></a>
             </div>
@@ -95,12 +95,12 @@
                         <div class="col-4">
                             <p class="h4 mt-4">Вот МИНИМАЛЬНЫЕ цифры:</p>
                             <p>Посчитаем минимальный доход при условии получения 10 000 единиц трафика:</p>
-                            <ul class="no-pad text-left mt-3 ">
-                                <li class="pl-2">Доход с основного продукта 1 313 000 &#8381; ;</li>
-                                <li class="pl-2 no-mar">с первого базового продукта 429 000 &#8381; ;</li>
-                                <li class="pl-2 no-mar">со второго базового продукта 156 000 &#8381; ;</li>
-                                <li class="pl-2 no-mar">с третьего базового продукта 89 800 &#8381; ;</li>
-                                <li class="pl-2 no-mar">с Front-End + Up-Sell 11 850 &#8381; ;</li>
+                            <ul class="second__section-ul text-left mt-3 ">
+                                <li class="second__section-li pl-2">Доход с основного продукта 1 313 000 &#8381; ;</li>
+                                <li class="second__section-li pl-2 no-mar">с первого базового продукта 429 000 &#8381; ;</li>
+                                <li class="second__section-li pl-2 no-mar">со второго базового продукта 156 000 &#8381; ;</li>
+                                <li class="second__section-li pl-2 no-mar">с третьего базового продукта 89 800 &#8381; ;</li>
+                                <li class="second__section-li pl-2 no-mar">с Front-End + Up-Sell 11 850 &#8381; ;</li>
                             </ul>
                         </div>
                         <div class="w-100"></div>
@@ -112,10 +112,46 @@
             </div>
         </div>
     </div>
+    <div class="third__section">
+        <div class="container-fluid">
+            <div class="img-anchor">
+                <a href="" name="autor" class="anchor-describe"></a>
+            </div>
+            <h2 class="my-5 pt-5 text-center"><b>Александр Михайлович Артанин</b></h2>
+            <div class="row justify-content-center">
+                <div class="col-auto centered pb-4"><img src="assets/i/photo-rounded.jpg" alt="#" class="border__img rounded-circle">
+                </div>
+                <div class="mb-2 col-lg-auto col-xl-auto col-md-12 col-sm-12">
+                    <ul class="third__section-ul text-left mt-3 ml-5">
+                        <li class="third__section-li">Владелец нескольких бизнесов на продаже трендовых продуктов;</li>
+                        <li class="third__section-li">Генеральный директор и владелец производства натуральных напитков;</li>
+                        <li class="third__section-li">Создатель и руководитель компании по продвижению интернет ресурсов;</li>
+                        <li class="third__section-li">Так же был генеральным директором автосалона б/у автомобилей;</li>
+                        <li class="third__section-li">Основатель и руководитель сети магазинов натуральных продуктов;</li>
+                        <li class="third__section-li">В прошлом владелец и генеральный директор проката автомобилей;</li>
+                        <li class="third__section-li">Женат, воспитывает двух дочек.</li>
+                    </ul>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-3">
+                    <a href="#" class="btn btn-block btn-lg btn-danger my-5 third__section-btn" role="button" aria-pressed="true">Участвовать!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fourth__section">
+        <div class="container-fluid main__cont text-center pb-1">
+            <div class="img-anchor">
+                <a href="" name="watch" class="anchor-describe"></a>
+            </div>
+            <p class="h3 text-danger">Это не просто курс или тренинг!</p>
+            <p class="h5">Это возможность наблюдать за процессами, повторять действия и получать результаты!</p>
+        </div>
+    </div>
     <!-- JS -->
-    <script>
+    <!--  <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script>
+    </script> -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
