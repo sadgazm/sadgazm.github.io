@@ -17,11 +17,12 @@
     <title>Реалити-шоу</title>
 </head>
 
-<body>
+<body  data-spy="scroll" data-target="#navbar-example">
     <header class="header centered">
-        <ul class="nav justify-content-center fixed-top">
+        <nav id="navbar-example" class="navbar nav-pills text-danger">
+        <ul class="nav  justify-content-center fixed-top" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active text-danger" href="#desc">Описание</a>
+                <a class="nav-link text-danger" href="#desc">Описание</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-danger" href="#autor">Об авторе проекта</a>
@@ -30,9 +31,10 @@
                 <a class="nav-link text-danger" href="#watch">Смотреть куда-то</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-danger" href="#">Купить что-то</a>
+                <a class="nav-link text-danger" href="#buy">Купить что-то</a>
             </li>
         </ul>
+    </nav>
         <div class="container-fluid text-center">
             <div class="row justify-content-center">
                 <div class="col-9">
@@ -47,12 +49,9 @@
         </div>
     </header>
     <main>
-        <section class="second-section">
+        <section class="second-section" id="desc">
             <div class="container-fluid text-center pb-1">
-                <div class="img-anchor">
-                    <a href="" name="desc" class="anchor-describe"></a>
-                </div>
-                <h2 class="text-danger text-center pt-5 underline"><b>Это для Вас, если Вы:</b></h2>
+                <h2 class="text-danger text-center pt-5 underline">Это для Вас, если Вы:</h2>
                 <div class="container descr__cont">
                     <div class="row justify-content-center pt-3">
                         <div class="col-xs-12 col-sm-6 col-lg-3 col-xs-3">
@@ -88,7 +87,7 @@
                                 <p class="h5">Делая последний запуск мы получили оборот БОЛЕЕ чем 2 000 000 рублей уже за первые 20 дней, не вложив ни копейки. При том, если Вы знаете, что и как нужно делать, Вам достаточно уделять в день всего 2 часа, чтобы уже через месяц выйти на такие же результаты!</p>
                             </div>
                             <div class="col-4">
-                                <img src="assets/i/ic4.png" alt="" class="w-100 mb-3">
+                                <img src="assets/i/scrin.png" alt="#" class="w-100 mb-3">
                                 <p class="h4 text-danger">Это скрин моего онлайн
                                     <br> рабочего кабинета</p>
                                 <p>Вам ничего не мешает получить точно такие же результаты!</p>
@@ -113,11 +112,8 @@
                 </div>
             </div>
         </section>
-        <section class="third__section">
+        <section class="third__section"  id="autor">
             <div class="container-fluid">
-                <div class="img-anchor">
-                    <a href="" name="autor" class="anchor-describe"></a>
-                </div>
                 <h2 class="my-5 pt-5 text-center"><b>Александр Михайлович Артанин</b></h2>
                 <div class="row justify-content-center">
                     <div class="col-auto centered pb-4"><img src="assets/i/photo-rounded.jpg" alt="#" class="border__img rounded-circle">
@@ -140,16 +136,43 @@
                 </div>
             </div>
         </section>
-        <section class="fourth__section">
+        <section class="fourth__section"  id="watch">
             <div class="container-fluid main__cont text-center pb-1">
-                <div class="img-anchor">
-                    <a href="" name="watch" class="anchor-describe"></a>
-                </div>
-                <p class="h3 text-danger">Это не просто курс или тренинг!</p>
+                <p class="h2 text-danger pt-5">Это не просто курс или тренинг!</p>
                 <p class="h5">Это возможность наблюдать за процессами, повторять действия и получать результаты!</p>
             </div>
         </section>
+        <section class="fifth__section"  id="buy">
+            <div class="container-fluid main__cont text-center pb-1">
+                <p class="h2 text-danger pt-5">Оформить заказ на реалити-шоу</p>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-3 justify-content-center">
+                <div class="col-auto pt-3 centered">
+                    <a href="https://vk.com/ontover" class="soc__link1" target="_blank"></a>
+                    <a href="https://www.instagram.com/axartanin/" class="soc__link2 mx-3" target="_blank"></a>
+                    <a href="https://www.youtube.com/channel/UCwofiPQZdVQYCSQR2rngo-g/videos" class="soc__link3" target="_blank"></a>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-3">
+                <div class="col-auto">
+                    <ul class="footer__menu no__padding">
+                        <li class="footer__li"><a href="http://www.infotrend1.ru" class="text-danger" target="_blank">© 2016 - 2017 InfoTrend1.Ru Все права защищены</a></li>
+                        <li class="footer__li"><a href="https://vk.com/away.php?to=http%3A%2F%2Finfotrend1.justclick.ru%2Fmedia%2Fcontent%2Finfotrend1%2FDogovorOfertu.pdf&cc_key=" class="text-danger  a__decor" target="_blank">Публичная оферта</a></li>
+                        <li class="footer__li"><a href="https://vk.com/away.php?to=http%3A%2F%2Finfotrend1.justclick.ru%2Fmedia%2Fcontent%2Finfotrend1%2FPolitikak.pdf&cc_key=" class="text-danger" target="_blank">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto pb-3 centered">
+                    <div class="col"><span>ИП Смирнов Александр Михайлович;</span>
+                        <div class="w-100 empty"></div><span>ОГРН 316784700265172, ИНН 780536324751.</span></div>
+                    <div class="col"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone: +7 921 954-21-43</span><i class="fa fa-envelope" aria-hidden="true"></i><span>  e-mail: info@infotrend1.ru</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- JS -->
     <!--  <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
